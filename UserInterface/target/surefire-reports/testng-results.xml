@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-14T17:53:54 ALMT" name="Command line suite" finished-at="2023-05-14T17:54:19 ALMT" duration-ms="24047">
+    <groups>
+    </groups>
+    <test started-at="2023-05-14T17:53:54 ALMT" name="Command line test" finished-at="2023-05-14T17:54:19 ALMT" duration-ms="24047">
+      <class name="TestCases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases@3b938003]" started-at="2023-05-14T17:53:55 ALMT" name="setUp" finished-at="2023-05-14T17:54:00 ALMT" duration-ms="5441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="closeCookiesTest()[pri:0, instance:TestCases@3b938003]" started-at="2023-05-14T17:54:00 ALMT" name="closeCookiesTest" finished-at="2023-05-14T17:54:03 ALMT" duration-ms="2627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCookiesTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases@3b938003]" started-at="2023-05-14T17:54:03 ALMT" name="tearDown" finished-at="2023-05-14T17:54:03 ALMT" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases@3b938003]" started-at="2023-05-14T17:54:03 ALMT" name="setUp" finished-at="2023-05-14T17:54:05 ALMT" duration-ms="2508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="hideHelpFormTest()[pri:0, instance:TestCases@3b938003]" started-at="2023-05-14T17:54:05 ALMT" name="hideHelpFormTest" finished-at="2023-05-14T17:54:06 ALMT" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hideHelpFormTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases@3b938003]" started-at="2023-05-14T17:54:06 ALMT" name="tearDown" finished-at="2023-05-14T17:54:06 ALMT" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases@3b938003]" started-at="2023-05-14T17:54:06 ALMT" name="setUp" finished-at="2023-05-14T17:54:09 ALMT" duration-ms="2409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginAvatarAndInterestsTest()[pri:0, instance:TestCases@3b938003]" started-at="2023-05-14T17:54:09 ALMT" name="loginAvatarAndInterestsTest" finished-at="2023-05-14T17:54:15 ALMT" duration-ms="6451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAvatarAndInterestsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases@3b938003]" started-at="2023-05-14T17:54:15 ALMT" name="tearDown" finished-at="2023-05-14T17:54:15 ALMT" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases@3b938003]" started-at="2023-05-14T17:54:15 ALMT" name="setUp" finished-at="2023-05-14T17:54:18 ALMT" duration-ms="2421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="timerStartValueTest()[pri:0, instance:TestCases@3b938003]" started-at="2023-05-14T17:54:18 ALMT" name="timerStartValueTest" finished-at="2023-05-14T17:54:18 ALMT" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timerStartValueTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases@3b938003]" started-at="2023-05-14T17:54:18 ALMT" name="tearDown" finished-at="2023-05-14T17:54:19 ALMT" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

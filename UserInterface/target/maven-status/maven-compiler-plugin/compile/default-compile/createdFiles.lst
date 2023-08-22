@@ -1,0 +1,9 @@
+org\example\forms\HelpForm.class
+org\example\utils\RobotUtils.class
+org\example\utils\FilePathUtils.class
+org\example\utils\RandomUtils.class
+org\example\forms\PersonalDetailsForm.class
+org\example\forms\AvatarAndInterestsForm.class
+org\example\forms\LoginForm.class
+org\example\forms\HomePage.class
+org\example\utils\MyConstants.class

@@ -1,0 +1,11 @@
+{
+  "url": "https://userinyerface.com/",
+  "image_name": "photographer.jpeg",
+  "robot_delay_time": 1000,
+  "numberOfInterestCheckBoxesToBeChecked": 3,
+  "selectAllCheckboxIndex": 17,
+  "unselectAllCheckboxIndex": 20,
+  "randomGeneratorStart": 20,
+  "randomGeneratorEnd": 30,
+  "common_symbol": "a"
+}
