@@ -1,0 +1,389 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "default": [],
+  "title": "Root Schema",
+  "items": {
+    "type": "object",
+    "title": "A Schema",
+    "required": [
+      "id",
+      "name",
+      "username",
+      "email",
+      "address",
+      "phone",
+      "website",
+      "company"
+    ],
+    "properties": {
+      "id": {
+        "type": "integer",
+        "title": "The id Schema",
+        "examples": [
+          1,
+          2,
+          3
+        ]
+      },
+      "name": {
+        "type": "string",
+        "title": "The name Schema",
+        "examples": [
+          "Leanne Graham",
+          "Ervin Howell",
+          "Clementine Bauch"
+        ]
+      },
+      "username": {
+        "type": "string",
+        "title": "The username Schema",
+        "examples": [
+          "Bret",
+          "Antonette",
+          "Samantha"
+        ]
+      },
+      "email": {
+        "type": "string",
+        "title": "The email Schema",
+        "examples": [
+          "Sincere@april.biz",
+          "Shanna@melissa.tv",
+          "Nathan@yesenia.net"
+        ]
+      },
+      "address": {
+        "type": "object",
+        "title": "The address Schema",
+        "required": [
+          "street",
+          "suite",
+          "city",
+          "zipcode",
+          "geo"
+        ],
+        "properties": {
+          "street": {
+            "type": "string",
+            "title": "The street Schema",
+            "examples": [
+              "Kulas Light",
+              "Victor Plains",
+              "Douglas Extension"
+            ]
+          },
+          "suite": {
+            "type": "string",
+            "title": "The suite Schema",
+            "examples": [
+              "Apt. 556",
+              "Suite 879",
+              "Suite 847"
+            ]
+          },
+          "city": {
+            "type": "string",
+            "title": "The city Schema",
+            "examples": [
+              "Gwenborough",
+              "Wisokyburgh",
+              "McKenziehaven"
+            ]
+          },
+          "zipcode": {
+            "type": "string",
+            "title": "The zipcode Schema",
+            "examples": [
+              "92998-3874",
+              "90566-7771",
+              "59590-4157"
+            ]
+          },
+          "geo": {
+            "type": "object",
+            "title": "The geo Schema",
+            "required": [
+              "lat",
+              "lng"
+            ],
+            "properties": {
+              "lat": {
+                "type": "string",
+                "title": "The lat Schema",
+                "examples": [
+                  "-37.3159",
+                  "-43.9509",
+                  "-68.6102"
+                ]
+              },
+              "lng": {
+                "type": "string",
+                "title": "The lng Schema",
+                "examples": [
+                  "81.1496",
+                  "-34.4618",
+                  "-47.0653"
+                ]
+              }
+            },
+            "examples": [{
+              "lat": "-37.3159",
+              "lng": "81.1496"
+            },
+              {
+                "lat": "-43.9509",
+                "lng": "-34.4618"
+              },
+              {
+                "lat": "-68.6102",
+                "lng": "-47.0653"
+              }]
+          }
+        },
+        "examples": [{
+          "street": "Kulas Light",
+          "suite": "Apt. 556",
+          "city": "Gwenborough",
+          "zipcode": "92998-3874",
+          "geo": {
+            "lat": "-37.3159",
+            "lng": "81.1496"
+          }
+        },
+          {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+              "lat": "-43.9509",
+              "lng": "-34.4618"
+            }
+          },
+          {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157",
+            "geo": {
+              "lat": "-68.6102",
+              "lng": "-47.0653"
+            }
+          }]
+      },
+      "phone": {
+        "type": "string",
+        "title": "The phone Schema",
+        "examples": [
+          "1-770-736-8031 x56442",
+          "010-692-6593 x09125",
+          "1-463-123-4447"
+        ]
+      },
+      "website": {
+        "type": "string",
+        "title": "The website Schema",
+        "examples": [
+          "hildegard.org",
+          "anastasia.net",
+          "ramiro.info"
+        ]
+      },
+      "company": {
+        "type": "object",
+        "title": "The company Schema",
+        "required": [
+          "name",
+          "catchPhrase",
+          "bs"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "The name Schema",
+            "examples": [
+              "Romaguera-Crona",
+              "Deckow-Crist",
+              "Romaguera-Jacobson"
+            ]
+          },
+          "catchPhrase": {
+            "type": "string",
+            "title": "The catchPhrase Schema",
+            "examples": [
+              "Multi-layered client-server neural-net",
+              "Proactive didactic contingency",
+              "Face to face bifurcated interface"
+            ]
+          },
+          "bs": {
+            "type": "string",
+            "title": "The bs Schema",
+            "examples": [
+              "harness real-time e-markets",
+              "synergize scalable supply-chains",
+              "e-enable strategic applications"
+            ]
+          }
+        },
+        "examples": [{
+          "name": "Romaguera-Crona",
+          "catchPhrase": "Multi-layered client-server neural-net",
+          "bs": "harness real-time e-markets"
+        },
+          {
+            "name": "Deckow-Crist",
+            "catchPhrase": "Proactive didactic contingency",
+            "bs": "synergize scalable supply-chains"
+          },
+          {
+            "name": "Romaguera-Jacobson",
+            "catchPhrase": "Face to face bifurcated interface",
+            "bs": "e-enable strategic applications"
+          }]
+      }
+    },
+    "examples": [{
+      "id": 1,
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.biz",
+      "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874",
+        "geo": {
+          "lat": "-37.3159",
+          "lng": "81.1496"
+        }
+      },
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+      {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "email": "Shanna@melissa.tv",
+        "address": {
+          "street": "Victor Plains",
+          "suite": "Suite 879",
+          "city": "Wisokyburgh",
+          "zipcode": "90566-7771",
+          "geo": {
+            "lat": "-43.9509",
+            "lng": "-34.4618"
+          }
+        },
+        "phone": "010-692-6593 x09125",
+        "website": "anastasia.net",
+        "company": {
+          "name": "Deckow-Crist",
+          "catchPhrase": "Proactive didactic contingency",
+          "bs": "synergize scalable supply-chains"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "username": "Samantha",
+        "email": "Nathan@yesenia.net",
+        "address": {
+          "street": "Douglas Extension",
+          "suite": "Suite 847",
+          "city": "McKenziehaven",
+          "zipcode": "59590-4157",
+          "geo": {
+            "lat": "-68.6102",
+            "lng": "-47.0653"
+          }
+        },
+        "phone": "1-463-123-4447",
+        "website": "ramiro.info",
+        "company": {
+          "name": "Romaguera-Jacobson",
+          "catchPhrase": "Face to face bifurcated interface",
+          "bs": "e-enable strategic applications"
+        }
+      }]
+  },
+  "examples": [
+    [{
+      "id": 1,
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.biz",
+      "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874",
+        "geo": {
+          "lat": "-37.3159",
+          "lng": "81.1496"
+        }
+      },
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+      {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "email": "Shanna@melissa.tv",
+        "address": {
+          "street": "Victor Plains",
+          "suite": "Suite 879",
+          "city": "Wisokyburgh",
+          "zipcode": "90566-7771",
+          "geo": {
+            "lat": "-43.9509",
+            "lng": "-34.4618"
+          }
+        },
+        "phone": "010-692-6593 x09125",
+        "website": "anastasia.net",
+        "company": {
+          "name": "Deckow-Crist",
+          "catchPhrase": "Proactive didactic contingency",
+          "bs": "synergize scalable supply-chains"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "username": "Samantha",
+        "email": "Nathan@yesenia.net",
+        "address": {
+          "street": "Douglas Extension",
+          "suite": "Suite 847",
+          "city": "McKenziehaven",
+          "zipcode": "59590-4157",
+          "geo": {
+            "lat": "-68.6102",
+            "lng": "-47.0653"
+          }
+        },
+        "phone": "1-463-123-4447",
+        "website": "ramiro.info",
+        "company": {
+          "name": "Romaguera-Jacobson",
+          "catchPhrase": "Face to face bifurcated interface",
+          "bs": "e-enable strategic applications"
+        }
+      }]
+  ]
+}

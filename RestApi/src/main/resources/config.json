@@ -1,0 +1,5 @@
+{
+  "url": "https://jsonplaceholder.typicode.com",
+  "randomStart": 30,
+  "randomEnd": 50
+}

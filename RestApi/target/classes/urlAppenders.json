@@ -1,0 +1,7 @@
+{
+  "posts": "/posts/",
+  "users": "/users/",
+  "postIdForGetPostWithIdTest": 99,
+  "postIdForGet404PostTest": 150,
+  "userIdForGetUserWithIdTest": 5
+}
