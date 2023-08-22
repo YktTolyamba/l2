@@ -1,0 +1,7 @@
+<suite name="My VK API testing suite">
+    <test name="Website test">
+        <classes>
+            <class name="TestCases"/>
+        </classes>
+    </test>
+</suite>

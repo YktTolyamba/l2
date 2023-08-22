@@ -1,0 +1,4 @@
+{
+  "url": "https://vk.com/",
+  "apiUrl": "https://api.vk.com/method/{METHOD_NAME}?{PARAMETERS}&access_token={ACCESS_TOKEN}&v={V}"
+}
